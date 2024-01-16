@@ -2,7 +2,7 @@
 
 <h2>Description</h2>
                 
-<h> I have compiled a list of various tasks in this section that showcase my expertise in different circumstances. It will include tasks that share investigating hash files, and incident reports analysis, using TCPdump logs.<hr />
+<h> I have compiled a list of various tasks in this section that showcase my expertise in different circumstances. It will include tasks that share investigating hash files, incident reports analysis, and using Wireshark or TCPdump logs.<hr />
 
 
 <h2>Investigating Hash File</h2>
@@ -20,7 +20,6 @@
 ![Screenshot 2024-01-15 200343](https://github.com/digital-md/Analyzing-network-structure-security/assets/156498985/5e141f85-b19c-4546-8f96-f37d5d8abac6)
 ![Screenshot 2024-01-15 200530](https://github.com/digital-md/Analyzing-network-structure-security/assets/156498985/69916b3c-2863-4575-bfcf-d441e673906c)
 
-   
 
 <h2>Incident Report Network Attack </h2>
 
@@ -30,8 +29,7 @@
 
 <b>Response</b>
 
-
-
+![Screenshot 2024-01-15 232129](https://github.com/digital-md/Analyzing-network-structure-security/assets/156498985/c7c4470d-26df-4a5a-b537-56991b6650f2)
 
 
 <h2>Incident Report Network Traffic Analysis</h2>
@@ -40,43 +38,12 @@
 
 <h>In this scenario I will be working with a company specializing in providing IT consulting services. Some customers contacted the company to report they were not able to access the company's website www.yummyrecipesforme.com mock website. They were seeing an error "destination port unreachable" when the page loaded. I was asked to analyze the situation and determine which network protocol was affected during this incident. Once I visited the website I received the same error message. Next, I loaded a network analyzer tool called "tcpdump" and then I loaded the page again. The results showed a lot of packets sending UDP packets and receiving an ICMP response in return. The results contained an error message: "udp port 53 unreachable." See Below</h>
 
+![Screenshot 2024-01-15 220440](https://github.com/digital-md/Analyzing-network-structure-security/assets/156498985/40fa56cf-7d86-4fdf-8a29-43a7aef055c4)
+
 <b>Response</b>
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![Screenshot 2024-01-15 224830](https://github.com/digital-md/Analyzing-network-structure-security/assets/156498985/cd13c383-b5f0-43de-81cf-29de42e49467)
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+
 ```
 --!>
