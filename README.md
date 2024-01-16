@@ -67,6 +67,7 @@ As a cybersecurity analyst, I'm tasked with using this security event to create 
 
 <b>Response</b>
 
+![Screenshot 2024-01-16 000321NIST](https://github.com/digital-md/Analyzing-network-structure-security/assets/156498985/c8e186ae-fbb7-4202-8c50-f173f8f14559)
 
 
 ```
