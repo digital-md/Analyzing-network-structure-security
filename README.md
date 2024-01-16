@@ -1,16 +1,25 @@
-<h1>JWipe - Disk Sanitization</h1>
-
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+<h1>Network Structure & Cybersecurity Tasks</h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
-<br />
+                
+<h> I have compiled a list of various tasks in this section that showcase my expertise in different circumstances. It will include tasks that share investigating hash files, incident reports analysis, how to read Wireshark, and how to read tcpdump logs.<hr />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Investigating Hash File</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+<b>Scenario</b>
+
+<h>Working as a level one security operations (SOC) analyst at a financial service company. I received an alert that there was a suspicious file being downloaded on one of the employee's computers. The employee received an email 1:11 p.m. containing an attachment that was password-protected. The password was provided in the email. When the password was entered to open the file at 1:13 p.m., a malicious payload was executed on the computer at 1:15 p.m. After retrieving the malicious file the intrusion detection system detected the file at 1:20 p.m. I create a SHA256 hash of the file. I researched the hash file to see if there are any additional IoC's associated. </h>
+
+<b>Response</b>
+
+   - <h>After reviewing the hash file I documented it see below</h>
+
+<b>Pyramid of Pain</b> 
+
+
+
+   
 
 <h2>Environments Used </h2>
 
