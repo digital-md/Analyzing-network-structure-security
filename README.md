@@ -1,4 +1,4 @@
-<h1>Network Structure & Cybersecurity Tasks</h1>
+<h1>Network & Cybersecurity Tasks</h1>
 
 <h2>Description</h2>
                 
@@ -9,19 +9,20 @@
 
 <b>Scenario</b>
 
-<h>Working as a level one security operations (SOC) analyst at a financial service company. I received an alert that there was a suspicious file being downloaded on one of the employee's computers. The employee received an email 1:11 p.m. containing an attachment that was password-protected. The password was provided in the email. When the password was entered to open the file at 1:13 p.m., a malicious payload was executed on the computer at 1:15 p.m. After retrieving the malicious file the intrusion detection system detected the file at 1:20 p.m. I create a SHA256 hash of the file. I researched the hash file to see if there are any additional IoC's associated. </h>
+<h>Working as a level one security operations (SOC) analyst at a financial service company. I received an alert that there was a suspicious file being downloaded on one of the employee's computers. The employee received an email 1:11 p.m. containing an attachment that was password-protected. The password was provided in the email. When the password was entered to open the file at 1:13 p.m., a malicious payload was executed on the computer at 1:15 p.m. After retrieving the malicious file the intrusion detection system detected the file at 1:20 p.m. I create a SHA256 hash of the file. I researched the hash file in VirusTotal to see if there are any additional IoC's associated. </h>
 
 <b>Response</b>
 
-   - <h>After reviewing the hash file I documented it see below</h>
+   - <h>After reviewing the hash file I documented it in the Pyramid of Pain template see below</h>
 
 <b>Pyramid of Pain</b> 
 
-
+![Screenshot 2024-01-15 200343](https://github.com/digital-md/Analyzing-network-structure-security/assets/156498985/5e141f85-b19c-4546-8f96-f37d5d8abac6)
+![Screenshot 2024-01-15 200530](https://github.com/digital-md/Analyzing-network-structure-security/assets/156498985/69916b3c-2863-4575-bfcf-d441e673906c)
 
    
 
-<h2>Environments Used </h2>
+<h2>Incident Report Analysis </h2>
 
 - <b>Windows 10</b> (21H2)
 
